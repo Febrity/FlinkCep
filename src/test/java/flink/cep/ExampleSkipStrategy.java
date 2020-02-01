@@ -1,8 +1,6 @@
 package flink.cep;
 
 import example.flink.cep.EventSkipStrategy;
-import lombok.AllArgsConstructor;
-import lombok.Data;
 import org.apache.flink.cep.CEP;
 import org.apache.flink.cep.PatternSelectFunction;
 import org.apache.flink.cep.PatternStream;
@@ -16,7 +14,6 @@ import org.apache.flink.streaming.api.functions.IngestionTimeExtractor;
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
 import org.junit.Test;
 
-import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
